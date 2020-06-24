@@ -7,7 +7,7 @@
 #### To use
 
 ```sh
-docker run -it --rm docker.pkg.github.com/wilsontom/classyfire-devel classyfire-devel
+docker run --name classyfire-devel -it --rm docker.pkg.github.com/wilsontom/classyfire-devel 
 
 > R
 > library(classyfireR)
